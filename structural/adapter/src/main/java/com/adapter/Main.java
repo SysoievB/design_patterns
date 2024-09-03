@@ -2,6 +2,7 @@ package com.adapter;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        IPhoneWithAnotherVersion iPhone = new IPhoneWithAnotherVersion(new IPhoneToAnotherVersionAdapter(new IPhoneCharger()));
+        iPhone.onCharge();
     }
 }
