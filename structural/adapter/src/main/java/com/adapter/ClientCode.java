@@ -3,7 +3,7 @@ package com.adapter;
 /**
  * Somewhere in client code...
  */
-public class Main {
+public class ClientCode {
     public static void main(String[] args) {
         // Round fits round, no surprise.
         RoundHole hole = new RoundHole(5);
