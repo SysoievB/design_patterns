@@ -6,7 +6,12 @@ import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * The Composite Design Pattern is a structural design pattern that lets you
+ * compose objects into tree-like structures to represent part-whole hierarchies.
+ * It allows clients to treat individual objects and compositions of objects
+ * uniformly. In other words, whether dealing with a single object or a group
+ * of objects (composite), clients can use them interchangeably.*/
 public class Main {
     public static void main(String[] args) {
         // Creating simple tasks

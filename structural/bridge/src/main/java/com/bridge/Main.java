@@ -7,8 +7,9 @@ package com.bridge;
  * There are 2 parts in Bridge design pattern :
  * <p>
  * Abstraction
+ * <p>
  * Implementation
- */
+ * */
 public class Main {
     public static void main(String[] args) {
         Vehicle vehicle1 = new Car(new Produce(), new Assemble());
