@@ -1,4 +1,4 @@
-package com.chain_of_responsisbility;
+package com.chain_of_responsibility;
 /**
  * The Chain of Responsibility design pattern is a behavioral design pattern that
  * allows an object to pass a request along a chain of handlers. Each handler in the
