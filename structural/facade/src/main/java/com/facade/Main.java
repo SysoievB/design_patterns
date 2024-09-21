@@ -1,5 +1,7 @@
 package com.facade;
-
+/**
+ * The facade pattern hides the complexity of the underlying system and provides
+ * a simple interface that clients can use to interact with the system.*/
 public class Main {
     public static void main(String[] args) {
         HotelKeeper keeper = new HotelKeeperImplementation();
