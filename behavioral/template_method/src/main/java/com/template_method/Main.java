@@ -1,4 +1,4 @@
-package com.template;
+package com.template_method;
 
 /**
  * Template Method is a behavioral design pattern that allows you to define a skeleton
