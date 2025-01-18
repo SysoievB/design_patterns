@@ -7,7 +7,7 @@ public class Main {
     }
 }
 
-sealed interface CommonSealedInterface permits Car, Truck{
+sealed interface CommonSealedInterface permits Car, Truck {
     String commonMethod();
 }
 
@@ -17,6 +17,7 @@ record Car(String param) implements CommonSealedInterface {
         return param;
     }
 }
+
 record Truck(String param) implements CommonSealedInterface {
     @Override
     public String commonMethod() {
